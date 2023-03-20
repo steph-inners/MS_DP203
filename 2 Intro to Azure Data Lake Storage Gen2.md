@@ -19,4 +19,4 @@ Azure Blob Storage uses flat namespace for non-analysis storage. Azure Data Lake
 	Azure Synapse Analytics, Azure Databricks, Azure HDInsight, Azure Machine Learning
 4. **Model & Serve** Present the data to users (Power BI)
 
-continue at https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-data-lake-storage/2-azure-data-lake-gen2
+continue at https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-data-lake-storage/6-use-cases
