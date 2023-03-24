@@ -136,3 +136,46 @@ Data processing frameworks
 # Intro to Azure Synapse Analytics
 https://learn.microsoft.com/en-us/training/modules/introduction-azure-synapse-analytics/
 
+## What is Azure Synapse Analytics
+
+4 common analytical techniques
+1. Descriptive
+2. Diagnostic
+3. Predictive
+4. Prescriptive
+
+![](images\types-analytics.png)
+
+## How Azure Synapse Analytics works
+
+- centralized service for data storage and processing
+  - plus linked services for commonly-used
+    - data stores
+    - processing platforms
+    - visualization tools
+
+**workspace** an instance of Synapse Analytics service
+
+- manual creation via Azure portal
+- automated instantiation via...
+  - PowerShell 
+  - Azure CLI
+  - Azure Resource Manager
+  - Bicep template
+
+
+**Synapse Studio** web-based portal for Synapse Analytics
+
+## Working with files in a data lake
+
+![](images/data-lake-store.png)
+
+## Ingesting and transforming data with pipelines
+
+**pipelines** used to ETL/ELT
+- based on same underlying tech as Azure Data Factory
+
+![](images/synapse-pipeline.png)
+
+continue at https://learn.microsoft.com/en-us/training/modules/introduction-azure-synapse-analytics/3-how-works
+
