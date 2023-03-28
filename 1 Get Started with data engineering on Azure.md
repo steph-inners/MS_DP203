@@ -177,5 +177,37 @@ https://learn.microsoft.com/en-us/training/modules/introduction-azure-synapse-an
 
 ![](images/synapse-pipeline.png)
 
-continue at https://learn.microsoft.com/en-us/training/modules/introduction-azure-synapse-analytics/3-how-works
+## SQL
 
+- **serverless** SQL pool built-in
+  - to query file-based data lake data with relational SQL semantics
+- dedicated SQL pools host relational data warehouses
+- distributed query processing for parallel processing
+
+![](images/synapse-sql.png)
+
+## Apache Spark
+
+- open source big data platform
+- supported languages:
+  - Python
+  - Scala
+  - Java
+  - SQL
+  - C#
+- uses **Notebooks**
+
+![](images/synapse-spark.png)
+
+## Data Explorer
+
+- uses **Kusto Query Language (KQL)** for analysis of batch and streaming data
+
+## Integrations with other Azure data services
+
+- **Azure Synapse Link** for Azure Cosmos DB, Azure SQL Database, SQL Server, Power Plaform Dataverse
+- MS Power BI & Azure Synapse Studio
+- **MS Purview** to catalog data assets and track data lineage through pipelines into Synapse
+- Azure Machine Learning
+
+continue at https://learn.microsoft.com/en-us/training/modules/introduction-azure-synapse-analytics/4a-exercise-explore-synapse
