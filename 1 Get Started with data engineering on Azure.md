@@ -136,7 +136,7 @@ Data processing frameworks
 # Intro to Azure Synapse Analytics
 https://learn.microsoft.com/en-us/training/modules/introduction-azure-synapse-analytics/
 
-## What is Azure Synapse Analytics
+### What is Azure Synapse Analytics
 
 4 common analytical techniques
 1. Descriptive
@@ -146,7 +146,7 @@ https://learn.microsoft.com/en-us/training/modules/introduction-azure-synapse-an
 
 ![](images\types-analytics.png)
 
-## How Azure Synapse Analytics works
+### How Azure Synapse Analytics works
 
 - centralized service for data storage and processing
   - plus linked services for commonly-used
@@ -166,18 +166,18 @@ https://learn.microsoft.com/en-us/training/modules/introduction-azure-synapse-an
 
 **Synapse Studio** web-based portal for Synapse Analytics
 
-## Working with files in a data lake
+### Working with files in a data lake
 
 ![](images/data-lake-store.png)
 
-## Ingesting and transforming data with pipelines
+### Ingesting and transforming data with pipelines
 
 **pipelines** used to ETL/ELT
 - based on same underlying tech as Azure Data Factory
 
 ![](images/synapse-pipeline.png)
 
-## SQL
+### SQL
 
 - **serverless** SQL pool built-in
   - to query file-based data lake data with relational SQL semantics
@@ -186,7 +186,7 @@ https://learn.microsoft.com/en-us/training/modules/introduction-azure-synapse-an
 
 ![](images/synapse-sql.png)
 
-## Apache Spark
+### Apache Spark
 
 - open source big data platform
 - supported languages:
@@ -196,18 +196,35 @@ https://learn.microsoft.com/en-us/training/modules/introduction-azure-synapse-an
   - SQL
   - C#
 - uses **Notebooks**
+- most popular open-source platform for big data
+  - data prep
+  - data engineering
+  - ETL
+  - ML
+- built-in .NET support
 
 ![](images/synapse-spark.png)
 
-## Data Explorer
+### Data Explorer
 
 - uses **Kusto Query Language (KQL)** for analysis of batch and streaming data
 
-## Integrations with other Azure data services
+### Integrations with other Azure data services
 
 - **Azure Synapse Link** for Azure Cosmos DB, Azure SQL Database, SQL Server, Power Plaform Dataverse
 - MS Power BI & Azure Synapse Studio
 - **MS Purview** to catalog data assets and track data lineage through pipelines into Synapse
 - Azure Machine Learning
 
-continue at https://learn.microsoft.com/en-us/training/modules/introduction-azure-synapse-analytics/4a-exercise-explore-synapse
+
+# Azure Synapse Analytics Exercise
+
+Resources from MS in repo: [https://github.com/MicrosoftLearning/dp-203-azure-data-engineer](https://github.com/MicrosoftLearning/dp-203-azure-data-engineer)
+
+### Provision a workspace
+- manually in Azure portal
+- or with Cloud Shell scripts
+- use **serverless** for unplanned, bursty resource usage
+- use **SQL pool** for dedicated resources
+
+continue at [https://microsoftlearning.github.io/dp-203-azure-data-engineer/Instructions/Labs/01-Explore-Azure-Synapse.html#ingest-data-with-a-pipeline](https://microsoftlearning.github.io/dp-203-azure-data-engineer/Instructions/Labs/01-Explore-Azure-Synapse.html#ingest-data-with-a-pipeline)
