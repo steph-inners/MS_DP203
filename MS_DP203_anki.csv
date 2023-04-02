@@ -1,0 +1,8 @@
+question,answer
+migration strategy that moves from on prem to cloud without rearchitecting the app,lift and shift
+data schema typicadlly defined at query time,unstructured
+storage method that scales by adding more nodes and clustering with load balancing,on prem
+when making server clusters each server must be...,identical
+TCO for on prem servers includes,hardware software labor and datacentr iverhead like powr and telecom
+why ELT over ETL,data is immediately extracted and loaded. more flexibility for multiple transformations for different uses
+what is a data lake?,stores unstructured data in its natural format. stored in files rather than relational DB
